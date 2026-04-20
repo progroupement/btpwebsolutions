@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0B1D31"/>
+  <circle cx="1030" cy="92" r="180" fill="#F28705" fill-opacity="0.14"/>
+  <circle cx="165" cy="528" r="160" fill="#14518D" fill-opacity="0.22"/>
+  <rect x="72" y="74" width="1056" height="482" rx="34" fill="url(#paint0_linear)"/>
+  <text x="120" y="210" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">AGENCE DIGITALE SPECIALISEE BATIMENT</text>
+  <text x="120" y="304" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700">Sites internet, SEO et</text>
+  <text x="120" y="390" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700">applications metier BTP</text>
+  <text x="120" y="468" fill="#DCE7F5" font-family="Arial, Helvetica, sans-serif" font-size="30">Plus de visibilite Google. Plus de devis. Plus d'efficacite terrain.</text>
+  <rect x="824" y="154" width="210" height="210" rx="28" fill="white" fill-opacity="0.12"/>
+  <path d="M879 274L930 223L981 274" stroke="#F28705" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M879 273V350H981V273" stroke="white" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="86" y1="86" x2="1114" y2="556" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D3B66"/>
+      <stop offset="1" stop-color="#14518D"/>
+    </linearGradient>
+  </defs>
+</svg>
