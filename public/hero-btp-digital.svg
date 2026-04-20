@@ -1,23 +1,40 @@
-<svg width="620" height="520" viewBox="0 0 620 520" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="620" height="520" rx="28" fill="url(#paint0_linear)"/>
-  <rect x="42" y="56" width="220" height="120" rx="20" fill="white" fill-opacity="0.12"/>
-  <rect x="286" y="56" width="292" height="190" rx="20" fill="white" fill-opacity="0.1"/>
-  <rect x="42" y="202" width="220" height="248" rx="20" fill="white" fill-opacity="0.08"/>
-  <rect x="286" y="272" width="292" height="178" rx="20" fill="white" fill-opacity="0.12"/>
-  <path d="M111 145L152 103L194 145" stroke="#F28705" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M108 145V216H198V145" stroke="white" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="332" y="110" width="198" height="16" rx="8" fill="#DCE7F5"/>
-  <rect x="332" y="144" width="144" height="16" rx="8" fill="#F28705"/>
-  <rect x="332" y="178" width="168" height="16" rx="8" fill="#DCE7F5"/>
-  <circle cx="153" cy="275" r="42" fill="#F28705"/>
-  <rect x="112" y="339" width="82" height="16" rx="8" fill="#DCE7F5"/>
-  <rect x="92" y="371" width="122" height="16" rx="8" fill="#DCE7F5"/>
-  <path d="M321 387C354 336 430 323 484 357C525 382 549 425 553 450H322L321 387Z" fill="#F28705" fill-opacity="0.88"/>
-  <path d="M348 430C368 392 420 381 456 404C474 416 486 433 492 450H348V430Z" fill="white" fill-opacity="0.92"/>
+<svg width="920" height="760" viewBox="0 0 920 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="920" height="760" rx="42" fill="#071B33"/>
+  <circle cx="700" cy="126" r="180" fill="url(#heroGlow)" fill-opacity="0.72"/>
+  <rect x="58" y="64" width="804" height="632" rx="34" fill="url(#heroPanel)"/>
+  <rect x="104" y="112" width="280" height="194" rx="26" fill="#103E6B"/>
+  <rect x="412" y="112" width="406" height="194" rx="26" fill="#0D335B"/>
+  <rect x="104" y="338" width="280" height="310" rx="26" fill="#0C3157"/>
+  <rect x="412" y="338" width="406" height="310" rx="26" fill="#123E6A"/>
+  <rect x="138" y="150" width="126" height="126" rx="24" fill="#F7FBFF"/>
+  <path d="M168 231V186L201 157L234 186V231" stroke="#F28B18" stroke-width="12" stroke-linejoin="round"/>
+  <rect x="289" y="160" width="54" height="16" rx="8" fill="#D8E5F5"/>
+  <rect x="289" y="194" width="72" height="16" rx="8" fill="#91B0D0"/>
+  <rect x="289" y="228" width="46" height="16" rx="8" fill="#D8E5F5"/>
+  <rect x="448" y="150" width="162" height="18" rx="9" fill="#D8E5F5"/>
+  <rect x="448" y="188" width="226" height="18" rx="9" fill="#F28B18"/>
+  <rect x="448" y="226" width="188" height="18" rx="9" fill="#D8E5F5"/>
+  <path d="M166 563C191 481 244 406 317 354C355 327 398 307 442 292" stroke="#F28B18" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="166" cy="563" r="16" fill="#F28B18"/>
+  <circle cx="270" cy="426" r="14" fill="#D8E5F5"/>
+  <circle cx="442" cy="292" r="14" fill="#D8E5F5"/>
+  <path d="M442 292L470 260" stroke="#F28B18" stroke-width="12" stroke-linecap="round"/>
+  <path d="M470 260L512 272" stroke="#F28B18" stroke-width="12" stroke-linecap="round"/>
+  <path d="M470 260L483 219" stroke="#F28B18" stroke-width="12" stroke-linecap="round"/>
+  <rect x="464" y="390" width="126" height="126" rx="24" fill="#F7FBFF"/>
+  <path d="M499 456H556" stroke="#0D3B66" stroke-width="12" stroke-linecap="round"/>
+  <path d="M527 429V483" stroke="#0D3B66" stroke-width="12" stroke-linecap="round"/>
+  <rect x="622" y="404" width="124" height="16" rx="8" fill="#D8E5F5"/>
+  <rect x="622" y="438" width="164" height="16" rx="8" fill="#91B0D0"/>
+  <rect x="622" y="472" width="102" height="16" rx="8" fill="#D8E5F5"/>
   <defs>
-    <linearGradient id="paint0_linear" x1="30" y1="20" x2="594" y2="492" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0D3B66"/>
+    <linearGradient id="heroPanel" x1="58" y1="64" x2="833" y2="696" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A2748"/>
       <stop offset="1" stop-color="#082846"/>
     </linearGradient>
+    <radialGradient id="heroGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700 126) rotate(90) scale(180)">
+      <stop stop-color="#F28B18"/>
+      <stop offset="1" stop-color="#F28B18" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 </svg>

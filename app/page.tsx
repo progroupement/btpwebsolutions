@@ -59,9 +59,9 @@ export default function HomePage() {
             <div className="hero-visual card card-dark">
               <Image
                 src="/hero-btp-digital.svg"
-                alt="Illustration d'une agence digitale spécialisée dans le bâtiment"
-                width={620}
-                height={520}
+                alt="Illustration premium d'une agence digitale spécialisée dans le bâtiment"
+                width={920}
+                height={760}
                 priority
               />
             </div>
@@ -104,17 +104,25 @@ export default function HomePage() {
             </div>
             <p>
               Nous créons des dispositifs utiles, lisibles et rentables, avec une vraie logique de
-              visibilité Google, d'image professionnelle et de gain de temps.
+              visibilité Google, d&apos;image professionnelle et de gain de temps.
             </p>
           </div>
           <div className="service-showcase">
             <article className="service-highlight">
-              <p className="eyebrow small">Vision d'ensemble</p>
+              <p className="eyebrow small">Vision d&apos;ensemble</p>
               <h3>Un seul partenaire pour votre site, votre acquisition et vos outils métier</h3>
               <p>
-                L'objectif n'est pas de livrer un site décoratif, mais une base digitale cohérente,
-                capable d'attirer, de rassurer et de convertir.
+                L&apos;objectif n&apos;est pas de livrer un site décoratif, mais une base digitale
+                cohérente, capable d&apos;attirer, de rassurer et de convertir.
               </p>
+              <div className="service-highlight-visual">
+                <Image
+                  src="/illustration-seo-btp.svg"
+                  alt="Illustration d'un pilotage SEO et conversion pour une entreprise du bâtiment"
+                  width={720}
+                  height={520}
+                />
+              </div>
             </article>
             <div className="card-grid">
               {services.map((service) => (
@@ -155,9 +163,9 @@ export default function HomePage() {
             <p className="eyebrow">Métiers accompagnés</p>
             <h2>Un discours adapté à chaque spécialité du bâtiment</h2>
             <p>
-              Les attentes d'un plombier, d'un électricien ou d'une entreprise générale ne sont pas
-              les mêmes. Nous adaptons le message, la structure du site et les pages SEO à votre
-              réalité métier.
+              Les attentes d&apos;un plombier, d&apos;un électricien ou d&apos;une entreprise générale
+              ne sont pas les mêmes. Nous adaptons le message, la structure du site et les pages
+              SEO à votre réalité métier.
             </p>
           </div>
           <div className="pill-grid">
@@ -175,6 +183,14 @@ export default function HomePage() {
           <article className="content-card feature-panel">
             <p className="eyebrow">Référencement naturel</p>
             <h2>Des pages SEO pensées pour remonter sur Google là où vos prospects vous cherchent</h2>
+            <div className="feature-illustration">
+              <Image
+                src="/illustration-seo-btp.svg"
+                alt="Illustration d'une stratégie SEO local pour le bâtiment"
+                width={720}
+                height={520}
+              />
+            </div>
             <p>
               Architecture sémantique, pages services, maillage interne, contenus métier et pages
               locales : nous préparons le site pour gagner durablement en visibilité.
@@ -188,6 +204,14 @@ export default function HomePage() {
           <article className="content-card feature-panel">
             <p className="eyebrow">Applications métier</p>
             <h2>Des outils sur mesure pour simplifier le suivi chantier et la relation client</h2>
+            <div className="feature-illustration">
+              <Image
+                src="/illustration-app-btp.svg"
+                alt="Illustration d'une application métier pour le suivi de chantier"
+                width={720}
+                height={520}
+              />
+            </div>
             <p>
               Nous concevons aussi des interfaces métier pour organiser les devis, les relances, les
               validations terrain et les échanges internes.
@@ -274,7 +298,11 @@ export default function HomePage() {
               dispositif digital cohérent avec vos objectifs de croissance.
             </p>
           </div>
-          <CTAButtons primaryHref="/diagnostic" primaryLabel="Recevoir mon diagnostic" secondaryLabel="Prendre rendez-vous" />
+          <CTAButtons
+            primaryHref="/diagnostic"
+            primaryLabel="Recevoir mon diagnostic"
+            secondaryLabel="Prendre rendez-vous"
+          />
         </div>
       </section>
     </main>
