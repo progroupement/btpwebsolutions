@@ -2,9 +2,9 @@ export const siteConfig = {
   name: "BTP Web Solutions",
   legalName: "BTP Web Solutions",
   domain: "https://www.btp-web-solutions.fr",
-  phone: "04 65 84 21 90",
-  phoneHref: "tel:+33465842190",
-  email: "contact@btp-web-solutions.fr",
+  phone: "09.50.66.73.77",
+  phoneHref: "tel:+33950667377",
+  email: "progroupement@gmail.com",
   whatsapp: "https://wa.me/33612345678",
   calendarUrl: "https://cal.com/btp-web-solutions/diagnostic",
   zone: "France entière, avec accompagnement renforcé en Île-de-France, Lyon, Marseille, Lille, Bordeaux et Toulouse.",
@@ -18,9 +18,9 @@ export const siteConfig = {
 
 export const navItems = [
   { href: "/", label: "Accueil" },
-  { href: "/a-propos", label: "A propos" },
+  { href: "/a-propos", label: "À propos" },
   { href: "/services", label: "Services" },
-  { href: "/realisations", label: "Realisations" },
+  { href: "/realisations", label: "Réalisations" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" }
 ];

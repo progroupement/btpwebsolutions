@@ -72,7 +72,7 @@ export function ContactForm({ journey }: ContactFormProps) {
         ].join("\n")
       );
 
-      window.location.href = `mailto:contact@btp-web-solutions.fr?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:progroupement@gmail.com?subject=${subject}&body=${body}`;
 
       setStatus("success");
       setFeedback("Votre logiciel email s'ouvre avec votre demande pre-remplie.");
