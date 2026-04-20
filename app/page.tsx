@@ -9,7 +9,6 @@ import {
   caseStudies,
   faqs,
   services,
-  siteConfig,
   testimonials,
   trades
 } from "@/lib/content";
@@ -24,44 +23,43 @@ export default function HomePage() {
       <section className="hero-section hero-premium">
         <div className="container hero-shell">
           <div className="hero-copy">
-            <p className="eyebrow">Agence digitale premium pour artisans et entreprises du BTP</p>
-            <h1>Le site, le SEO et les outils metier qui donnent enfin une vraie allure a votre acquisition</h1>
+            <p className="eyebrow">Agence web BTP spécialisée en visibilité, conversion et outils métier</p>
+            <h1>Le partenaire digital des artisans et entreprises du bâtiment</h1>
             <p className="lead">
-              BTP Web Solutions aide les professionnels du batiment a gagner des demandes de devis,
-              rassurer des la premiere visite et structurer leur digitalisation avec une image plus
-              haut de gamme.
+              BTP Web Solutions conçoit des sites internet, des stratégies SEO et des applications
+              métier pour aider les professionnels du bâtiment à gagner en visibilité, en demandes
+              de devis et en efficacité commerciale.
             </p>
-            <CTAButtons />
+            <CTAButtons secondaryLabel="Prendre rendez-vous" />
             <div className="metric-row">
               <article className="metric-card">
                 <strong>90+</strong>
-                <span>entreprises batiment accompagnees</span>
+                <span>entreprises du bâtiment accompagnées</span>
               </article>
               <article className="metric-card">
                 <strong>SEO local</strong>
-                <span>concu pour les recherches metier et zone</span>
+                <span>pensé pour les recherches métier et zone</span>
               </article>
               <article className="metric-card">
-                <strong>Web + metier</strong>
-                <span>site, tunnel, application et suivi reunis</span>
+                <strong>Web + logiciel</strong>
+                <span>site, acquisition et outils internes alignés</span>
               </article>
             </div>
             <div className="objection-strip compact">
-              <strong>Freins traites des l'entree :</strong> peur du digital, manque de temps,
-              crainte d'un site inutile ou trop cher. Notre approche est cadrée, visuelle et
-              orientee resultat.
+              <strong>Une approche claire :</strong> un site crédible, une visibilité Google plus
+              forte et des outils simples à utiliser par vos équipes.
             </div>
           </div>
 
           <div className="hero-stage">
             <div className="hero-stage-top">
-              <span className="hero-badge">Tunnel pense conversion</span>
-              <span className="hero-badge">SEO local pret a scaler</span>
+              <span className="hero-badge">Création de site internet BTP</span>
+              <span className="hero-badge">Référencement local et génération de leads</span>
             </div>
             <div className="hero-visual card card-dark">
               <Image
                 src="/hero-btp-digital.svg"
-                alt="Illustration d'une entreprise du batiment qui developpe sa visibilite digitale"
+                alt="Illustration d'une agence digitale spécialisée dans le bâtiment"
                 width={620}
                 height={520}
                 priority
@@ -69,14 +67,14 @@ export default function HomePage() {
             </div>
             <div className="hero-stage-bottom">
               <article className="floating-panel">
-                <p className="eyebrow small">Positionnement</p>
-                <h2>Une presence plus premium sur Google</h2>
-                <p>Architecture claire, pages metier, preuves visuelles et prise de rendez-vous directe.</p>
+                <p className="eyebrow small">Image de marque</p>
+                <h2>Un site plus crédible dès les premières secondes</h2>
+                <p>Design premium, messages clairs, preuves métier et prise de contact visible.</p>
               </article>
               <article className="floating-panel">
-                <p className="eyebrow small">Pilotage</p>
-                <h2>Des outils qui font gagner du temps</h2>
-                <p>Devis, qualification et suivi chantier peuvent enfin travailler ensemble.</p>
+                <p className="eyebrow small">Performance commerciale</p>
+                <h2>Une acquisition mieux structurée</h2>
+                <p>SEO local, campagnes ciblées et parcours de conversion construits pour le BTP.</p>
               </article>
             </div>
           </div>
@@ -86,11 +84,11 @@ export default function HomePage() {
       <section className="section section-band">
         <div className="container narrow">
           <div className="section-heading narrow">
-            <p className="eyebrow">Page de qualification</p>
-            <h2>Un tunnel court pour filtrer le besoin et afficher une offre adaptee</h2>
+            <p className="eyebrow">Diagnostic rapide</p>
+            <h2>Recevez une recommandation adaptée à votre métier et à votre zone</h2>
             <p>
-              Le parcours demarre par une qualification legere. En quatre questions, nous affinons
-              le metier, la zone et la priorite business pour personnaliser l'offre qui suit.
+              En quelques questions, nous identifions votre priorité pour vous orienter vers la
+              bonne combinaison entre site internet, SEO local, publicité digitale et outils métier.
             </p>
           </div>
           <QualificationForm />
@@ -101,21 +99,21 @@ export default function HomePage() {
         <div className="container">
           <div className="section-heading split-heading">
             <div>
-              <p className="eyebrow">Services coeur de croissance</p>
-              <h2>Des leviers penses ensemble pour donner une allure serieuse a toute la chaine commerciale</h2>
+              <p className="eyebrow">Nos expertises</p>
+              <h2>Des services digitaux construits pour faire grandir une entreprise du bâtiment</h2>
             </div>
             <p>
-              Nous ne vendons pas seulement un site. Nous construisons une presence complete :
-              visibilite, credibilite, conversion et simplification operationnelle.
+              Nous créons des dispositifs utiles, lisibles et rentables, avec une vraie logique de
+              visibilité Google, d'image professionnelle et de gain de temps.
             </p>
           </div>
           <div className="service-showcase">
             <article className="service-highlight">
-              <p className="eyebrow small">Approche agence</p>
-              <h3>Design, SEO, acquisition et outils metier dans une seule direction visuelle</h3>
+              <p className="eyebrow small">Vision d'ensemble</p>
+              <h3>Un seul partenaire pour votre site, votre acquisition et vos outils métier</h3>
               <p>
-                Le but est d'eviter le site banal. Chaque page doit inspirer confiance a un
-                dirigeant, un particulier ou un donneur d'ordre des les premieres secondes.
+                L'objectif n'est pas de livrer un site décoratif, mais une base digitale cohérente,
+                capable d'attirer, de rassurer et de convertir.
               </p>
             </article>
             <div className="card-grid">
@@ -138,8 +136,8 @@ export default function HomePage() {
       <section className="section section-muted">
         <div className="container">
           <div className="section-heading narrow">
-            <p className="eyebrow">Benefices concrets</p>
-            <h2>Une promesse plus credible car traduite en resultats visibles, lisibles et utiles</h2>
+            <p className="eyebrow">Bénéfices concrets</p>
+            <h2>Un site internet plus utile, plus visible et plus rentable</h2>
           </div>
           <div className="stats-grid">
             {benefits.map((benefit) => (
@@ -154,11 +152,12 @@ export default function HomePage() {
       <section className="section">
         <div className="container trades-shell">
           <div className="section-heading">
-            <p className="eyebrow">Metiers accompagnes</p>
-            <h2>Une meme rigueur visuelle, avec un discours qui change selon le corps d'etat</h2>
+            <p className="eyebrow">Métiers accompagnés</p>
+            <h2>Un discours adapté à chaque spécialité du bâtiment</h2>
             <p>
-              Le message, les references et les elements de reassurance doivent etre adaptes a la
-              realite d'un plombier, d'un peintre, d'un electricien ou d'une entreprise generale.
+              Les attentes d'un plombier, d'un électricien ou d'une entreprise générale ne sont pas
+              les mêmes. Nous adaptons le message, la structure du site et les pages SEO à votre
+              réalité métier.
             </p>
           </div>
           <div className="pill-grid">
@@ -174,29 +173,29 @@ export default function HomePage() {
       <section className="section section-gradient">
         <div className="container two-column">
           <article className="content-card feature-panel">
-            <p className="eyebrow">Conversion</p>
-            <h2>Une page de reservation qui inspire plus confiance qu'un simple formulaire</h2>
+            <p className="eyebrow">Référencement naturel</p>
+            <h2>Des pages SEO pensées pour remonter sur Google là où vos prospects vous cherchent</h2>
             <p>
-              La prise de rendez-vous, les garanties et le calendrier sont integres dans une meme
-              sequence pour reduire les hesitations et augmenter la prise de contact utile.
+              Architecture sémantique, pages services, maillage interne, contenus métier et pages
+              locales : nous préparons le site pour gagner durablement en visibilité.
             </p>
             <ul className="check-list">
-              <li>Calendrier integre et formulaire concis</li>
-              <li>Reassurance visible sans ton commercial agressif</li>
-              <li>Urgence douce basee sur la capacite d'onboarding</li>
+              <li>SEO local par prestation et zone</li>
+              <li>Pages claires pour les recherches à forte intention</li>
+              <li>Structure prête pour le blog et les cas clients</li>
             </ul>
           </article>
           <article className="content-card feature-panel">
-            <p className="eyebrow">Digitalisation metier</p>
-            <h2>Le site n'est qu'une facade visible d'un systeme plus profond</h2>
+            <p className="eyebrow">Applications métier</p>
+            <h2>Des outils sur mesure pour simplifier le suivi chantier et la relation client</h2>
             <p>
-              Suivi chantier, devis, planification ou automatisation administrative : la couche
-              applicative donne de la profondeur a la promesse et credibilise l'agence.
+              Nous concevons aussi des interfaces métier pour organiser les devis, les relances, les
+              validations terrain et les échanges internes.
             </p>
             <ul className="check-list">
-              <li>Applications web et mobiles sur mesure</li>
-              <li>Automatisations utiles pour gagner du temps</li>
-              <li>Vision plus globale de la transformation digitale BTP</li>
+              <li>Suivi de chantier et planification</li>
+              <li>Automatisation administrative</li>
+              <li>Meilleure coordination entre bureau et terrain</li>
             </ul>
           </article>
         </div>
@@ -205,8 +204,8 @@ export default function HomePage() {
       <section className="section">
         <div className="container">
           <div className="section-heading">
-            <p className="eyebrow">Preuves sociales</p>
-            <h2>Des retours clients mis en scene comme des validations de credibilite</h2>
+            <p className="eyebrow">Témoignages</p>
+            <h2>Des résultats visibles pour des entreprises du bâtiment exigeantes</h2>
           </div>
           <div className="card-grid">
             {testimonials.map((testimonial) => (
@@ -225,12 +224,12 @@ export default function HomePage() {
         <div className="container">
           <div className="section-heading split-heading">
             <div>
-              <p className="eyebrow">Realisations</p>
-              <h2>Des cas concrets presentes comme des dossiers premium et non des blocs generiques</h2>
+              <p className="eyebrow">Études de cas</p>
+              <h2>Des projets concrets en création de site, SEO et digitalisation métier</h2>
             </div>
             <p>
-              Resultats SEO, amelioration de la perception de marque et logique metier sont visibles
-              des la lecture des etudes de cas.
+              Nous mettons en avant des résultats réels, une progression visible et des dispositifs
+              construits pour le quotidien des entreprises du BTP.
             </p>
           </div>
           <div className="card-grid">
@@ -249,7 +248,7 @@ export default function HomePage() {
           </div>
           <div className="section-actions">
             <Link href="/realisations" className="button button-secondary">
-              Voir toutes les realisations
+              Voir toutes les réalisations
             </Link>
           </div>
         </div>
@@ -258,8 +257,8 @@ export default function HomePage() {
       <section className="section">
         <div className="container">
           <div className="section-heading">
-            <p className="eyebrow">FAQ SEO et conversion</p>
-            <h2>Les questions frequentes traitees dans un espace plus lisible et plus editorial</h2>
+            <p className="eyebrow">FAQ</p>
+            <h2>Les questions les plus fréquentes avant de lancer un projet digital BTP</h2>
           </div>
           <FAQList entries={faqs} />
         </div>
@@ -268,19 +267,14 @@ export default function HomePage() {
       <section className="section final-cta">
         <div className="container cta-panel">
           <div>
-            <p className="eyebrow">Passer a l'action</p>
-            <h2>Vous voulez une presence digitale qui ait enfin le niveau de votre savoir-faire ?</h2>
+            <p className="eyebrow">Prendre contact</p>
+            <h2>Parlons de votre site internet, de votre SEO local ou de votre application métier</h2>
             <p>
-              Lancez le diagnostic, recevez une offre adaptee puis reservez une demo gratuite avec
-              une direction claire pour le site, le SEO et la digitalisation metier.
+              Nous vous aidons à clarifier les priorités, structurer le projet et construire un
+              dispositif digital cohérent avec vos objectifs de croissance.
             </p>
           </div>
-          <div>
-            <CTAButtons primaryHref="/diagnostic" primaryLabel="Lancer mon diagnostic" />
-            <p className="cta-note">
-              Reponse sous 24h ouvrables. Intervention : {siteConfig.zone}
-            </p>
-          </div>
+          <CTAButtons primaryHref="/diagnostic" primaryLabel="Recevoir mon diagnostic" secondaryLabel="Prendre rendez-vous" />
         </div>
       </section>
     </main>

@@ -12,7 +12,7 @@ export function CTAButtons({
   primaryHref = "/diagnostic",
   primaryLabel = "Je veux plus de clients",
   secondaryHref = siteConfig.calendarUrl,
-  secondaryLabel = "Voir une demo gratuite"
+  secondaryLabel = "Prendre rendez-vous"
 }: CTAButtonsProps) {
   return (
     <div className="cta-row">

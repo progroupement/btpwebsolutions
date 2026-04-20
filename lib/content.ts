@@ -27,84 +27,84 @@ export const navItems = [
 
 export const services = [
   {
-    title: "Creation de site internet pour artisan",
+    title: "Création de site internet pour artisan",
     description:
-      "Des sites rapides, rassurants et pensés pour transformer les recherches locales en appels et demandes de devis.",
-    points: ["Pages services SEO", "Formulaires conversion", "Responsive mobile impeccable"]
+      "Des sites sobres, rapides et pensés pour transformer les recherches locales en appels et demandes de devis.",
+    points: ["Pages services optimisées SEO", "Formulaires orientés conversion", "Responsive mobile impeccable"]
   },
   {
-    title: "Creation de site internet pour entreprise du batiment",
+    title: "Site internet pour entreprise du bâtiment",
     description:
-      "Une vitrine premium pour valoriser vos chantiers, vos certifications, vos zones d'intervention et votre savoir-faire.",
-    points: ["Arborescence metier", "Preuves de confiance", "Cas clients et realisations"]
+      "Une vitrine premium pour valoriser vos chantiers, vos certifications, vos équipes et votre zone d'intervention.",
+    points: ["Arborescence claire", "Preuves de confiance", "Réalisations et cas clients"]
   },
   {
-    title: "Referencement local BTP",
+    title: "Référencement local BTP",
     description:
-      "Une strategie SEO pour remonter sur Google sur les recherches autour du batiment, de la renovation et des corps d'etat.",
-    points: ["Audit technique", "Pages locales", "Maillage interne intelligent"]
+      "Une stratégie SEO construite pour remonter sur Google sur les recherches métier, ville et zone d'intervention.",
+    points: ["Audit technique", "Pages locales", "Maillage interne efficace"]
   },
   {
-    title: "Google Ads pour entreprises du batiment",
+    title: "Google Ads pour le bâtiment",
     description:
-      "Des campagnes pilotees pour capter des demandes qualifiees sur les services les plus rentables de votre activite.",
-    points: ["Suivi des conversions", "Campagnes par zone", "Pilotage du cout par lead"]
+      "Des campagnes pilotées pour capter des demandes qualifiées sur les prestations les plus rentables de votre activité.",
+    points: ["Suivi des conversions", "Campagnes par zone", "Pilotage du coût par lead"]
   },
   {
-    title: "Reseaux sociaux et preuve de savoir-faire",
+    title: "Réseaux sociaux et image de marque",
     description:
-      "Une presence utile pour montrer vos chantiers, rassurer et nourrir votre image de marque locale.",
-    points: ["Calendrier editorial", "Formats chantier", "Valorisation avant/apres"]
+      "Une présence utile pour montrer vos chantiers, rassurer vos prospects et renforcer votre crédibilité locale.",
+    points: ["Calendrier éditorial", "Contenus chantier", "Valorisation avant / après"]
   },
   {
-    title: "Applications metier BTP sur mesure",
+    title: "Applications métier BTP sur mesure",
     description:
       "Des outils web et mobiles pour piloter le suivi de chantier, les devis, les plannings et la relation client.",
-    points: ["Applications web", "Applications mobiles", "Automatisation des taches admin"]
+    points: ["Applications web", "Applications mobiles", "Automatisation administrative"]
   }
 ];
 
 export const benefits = [
-  "Plus de demandes de devis grace a une meilleure visibilite locale sur Google.",
-  "Une image professionnelle qui rassure immediatement les particuliers, syndics et donneurs d'ordre.",
-  "Un meilleur suivi commercial avec des parcours de contact simples et des conversions mesurees.",
-  "Des process internes plus fluides grace aux applications metier et a l'automatisation administrative."
+  "Plus de demandes de devis grâce à une meilleure visibilité locale sur Google.",
+  "Une image professionnelle qui rassure immédiatement les particuliers, syndics et donneurs d'ordre.",
+  "Un meilleur suivi commercial avec des parcours de contact simples et des conversions mesurées.",
+  "Des process internes plus fluides grâce aux applications métier et à l'automatisation administrative."
 ];
 
 export const trades = [
   "Plombiers",
-  "Electriciens",
-  "Macons",
+  "Électriciens",
+  "Maçons",
   "Peintres",
   "Couvreurs",
   "Chauffagistes",
   "Menuisiers",
-  "Entreprises de renovation",
-  "Entreprises generales du BTP",
+  "Entreprises de rénovation",
+  "Entreprises générales du BTP",
   "Promoteurs immobiliers",
-  "Sous-traitants du batiment"
+  "Sous-traitants du bâtiment"
 ];
 
 export const testimonials = [
   {
     name: "Julien M.",
-    company: "Entreprise generale de renovation",
+    company: "Entreprise générale de rénovation",
     quote:
-      "En 6 mois, nous avons augmente les demandes de devis provenant de Google et clarifie notre image haut de gamme.",
-    result: "+43 % de leads qualifies"
+      "En 6 mois, nous avons augmenté les demandes de devis provenant de Google et clarifié notre image haut de gamme.",
+    result: "+43 % de leads qualifiés"
   },
   {
     name: "Sarah D.",
-    company: "Societe de plomberie-chauffage",
+    company: "Société de plomberie-chauffage",
     quote:
       "Le nouveau site nous apporte enfin des appels sur les bonnes prestations, avec une meilleure couverture locale.",
-    result: "Top 3 local sur 8 requetes cibles"
+    result: "Top 3 local sur 8 requêtes ciblées"
   },
   {
     name: "Nicolas B.",
     company: "PME second oeuvre",
     quote:
-      "L'application de suivi client nous a fait gagner un temps enorme sur les relances, devis et validations terrain.",
+      "L'application de suivi client nous a fait gagner un temps énorme sur les relances, les devis et les validations terrain.",
     result: "-11 h administratives par semaine"
   }
 ];
@@ -112,54 +112,54 @@ export const testimonials = [
 export const caseStudies = [
   {
     slug: "site-seo-plombier-lyon",
-    title: "Refonte SEO pour une entreprise de plomberie a Lyon",
+    title: "Refonte SEO pour une entreprise de plomberie à Lyon",
     challenge:
-      "Un site ancien, lent et peu visible sur les requetes locales autour du depannage et de la renovation sanitaire.",
+      "Un site ancien, lent et peu visible sur les requêtes locales autour du dépannage et de la rénovation sanitaire.",
     solution:
-      "Refonte complete, pages services geo-ciblees, FAQ SEO, optimisation technique et tunnel de conversion simplifie.",
-    results: ["x2,4 de trafic SEO en 7 mois", "+58 % de demandes de devis", "CLS et LCP optimises"],
+      "Refonte complète, pages services géo-ciblées, FAQ SEO, optimisation technique et parcours de conversion simplifié.",
+    results: ["x2,4 de trafic SEO en 7 mois", "+58 % de demandes de devis", "CLS et LCP optimisés"],
     sector: "Plomberie"
   },
   {
     slug: "application-suivi-chantier-renovation",
-    title: "Application de suivi de chantier pour une societe de renovation",
+    title: "Application de suivi de chantier pour une société de rénovation",
     challenge:
-      "Des informations dispersees entre WhatsApp, tableurs et appels, avec peu de visibilite sur les retards.",
+      "Des informations dispersées entre WhatsApp, tableurs et appels, avec peu de visibilité sur les retards.",
     solution:
-      "Conception d'une application web et mobile avec suivi chantier, photos, planning et relances client automatisees.",
+      "Conception d'une application web et mobile avec suivi chantier, photos, planning et relances client automatisées.",
     results: ["-35 % de retard de validation", "Centralisation des infos chantier", "Meilleure coordination terrain"],
-    sector: "Renovation"
+    sector: "Rénovation"
   },
   {
     slug: "google-ads-couvreur-idf",
-    title: "Campagnes Google Ads pour un couvreur en Ile-de-France",
+    title: "Campagnes Google Ads pour un couvreur en Île-de-France",
     challenge:
-      "Un budget publicitaire diffuse sans maitrise du cout par lead et sans distinction entre depannage et gros chantier.",
+      "Un budget publicitaire diffusé sans maîtrise du coût par lead et sans distinction entre dépannage et gros chantier.",
     solution:
-      "Segmentation des campagnes par intention, landing pages dediees et pilotage hebdomadaire des mots-cles.",
-    results: ["-27 % de cout par lead", "+31 % de leads qualifies", "Visibilite immediate sur zones prioritaires"],
+      "Segmentation des campagnes par intention, landing pages dédiées et pilotage hebdomadaire des mots-clés.",
+    results: ["-27 % de coût par lead", "+31 % de leads qualifiés", "Visibilité immédiate sur zones prioritaires"],
     sector: "Couverture"
   }
 ];
 
 export const faqs = [
   {
-    question: "Pourquoi une agence specialisee dans le batiment fait-elle la difference ?",
+    question: "Pourquoi choisir une agence spécialisée dans le bâtiment ?",
     answer:
-      "Parce qu'elle comprend les cycles de vente, les contraintes chantier, les prestations rentables, la saisonnalite et les recherches locales propres aux artisans et entreprises du BTP."
+      "Parce qu'une entreprise du BTP n'a pas les mêmes contraintes qu'un commerce classique. Il faut comprendre les cycles de vente, les prestations rentables, la saisonnalité, les urgences et les recherches locales."
   },
   {
-    question: "Un site internet suffit-il pour generer des demandes de devis ?",
+    question: "Un site internet suffit-il pour générer des demandes de devis ?",
     answer:
-      "Non. Le site doit etre pense comme un outil d'acquisition avec une structure SEO, des preuves de confiance, des appels a l'action visibles et un contenu cible par metier et par zone."
+      "Non. Le site doit être pensé comme un outil commercial avec une structure SEO, des preuves de confiance, des appels à l'action visibles et un contenu ciblé par métier et par zone."
   },
   {
-    question: "Combien de temps faut-il pour obtenir des resultats en SEO dans le batiment ?",
+    question: "En combien de temps peut-on voir des résultats en SEO local ?",
     answer:
-      "Les premiers signaux arrivent souvent entre 2 et 4 mois, avec une acceleration sur 6 a 12 mois selon l'etat initial du site, la concurrence locale et la profondeur editoriale."
+      "Les premiers signaux arrivent souvent entre 2 et 4 mois, avec une accélération sur 6 à 12 mois selon l'état initial du site, la concurrence locale et la profondeur éditoriale."
   },
   {
-    question: "Developpez-vous aussi des logiciels sur mesure pour le BTP ?",
+    question: "Développez-vous aussi des logiciels sur mesure pour le BTP ?",
     answer:
       "Oui. Nous concevons des applications web et mobiles pour la planification, le suivi client, les devis, la facturation, les relances et le pilotage de chantier."
   }
@@ -168,42 +168,42 @@ export const faqs = [
 export const blogPosts = [
   {
     slug: "comment-trouver-des-clients-dans-le-batiment",
-    title: "Comment trouver des clients dans le batiment en 2026",
+    title: "Comment trouver des clients dans le bâtiment en 2026",
     description:
-      "Methodes concretes pour generer des demandes de devis dans le batiment grace au SEO local, au site internet et a la publicite digitale.",
+      "Méthodes concrètes pour générer des demandes de devis dans le bâtiment grâce au SEO local, au site internet et à la publicité digitale.",
     category: "Acquisition",
     excerpt:
-      "Un plan d'action clair pour augmenter les demandes entrantes et stabiliser votre prospection sans dependre uniquement du bouche-a-oreille.",
-    heroTitle: "Comment trouver des clients dans le batiment sans dependre uniquement du bouche-a-oreille",
+      "Un plan d'action clair pour augmenter les demandes entrantes et stabiliser votre prospection sans dépendre uniquement du bouche-à-oreille.",
+    heroTitle: "Comment trouver des clients dans le bâtiment sans dépendre uniquement du bouche-à-oreille",
     intro:
-      "Pour une entreprise du batiment, trouver de nouveaux clients de facon reguliere demande un systeme. Entre la concurrence locale, les comparateurs et la volatilite des plateformes, il devient indispensable de construire sa propre machine d'acquisition.",
+      "Pour une entreprise du bâtiment, trouver de nouveaux clients de façon régulière demande un système. Entre la concurrence locale, les comparateurs et la volatilité des plateformes, il devient indispensable de construire sa propre machine d'acquisition.",
     sections: [
       {
-        heading: "Construire une presence locale visible sur Google",
+        heading: "Construire une présence locale visible sur Google",
         content:
-          "Votre fiche Google, vos pages services et vos zones d'intervention doivent travailler ensemble. Un artisan visible sur les bonnes requetes gagne en appels entrants sans surcout media."
+          "Votre fiche Google, vos pages services et vos zones d'intervention doivent travailler ensemble. Un artisan visible sur les bonnes requêtes gagne en appels entrants sans surcoût média."
       },
       {
         heading: "Transformer le site en outil commercial",
         content:
-          "Un site internet artisan doit rassurer, prouver le savoir-faire et orienter vers l'action. Sans CTA visibles, sans avis, sans realisations et sans structure claire, le trafic se perd."
+          "Un site internet artisan doit rassurer, prouver le savoir-faire et orienter vers l'action. Sans CTA visibles, sans avis, sans réalisations et sans structure claire, le trafic se perd."
       },
       {
         heading: "Combiner SEO et campagnes payantes",
         content:
-          "Le SEO construit l'actif long terme. Google Ads permet de capter rapidement la demande sur les prestations prioritaires. Les deux leviers sont complementaires."
+          "Le SEO construit l'actif long terme. Google Ads permet de capter rapidement la demande sur les prestations prioritaires. Les deux leviers sont complémentaires."
       }
     ],
     faq: [
       {
         question: "Quel canal est le plus rentable pour un artisan ?",
         answer:
-          "Le canal le plus rentable est souvent le SEO local lorsqu'il est bien structure, car il genere des leads recurrents sans payer chaque clic."
+          "Le canal le plus rentable est souvent le SEO local lorsqu'il est bien structuré, car il génère des leads récurrents sans payer chaque clic."
       },
       {
-        question: "Faut-il un site meme si l'on a deja des reseaux sociaux ?",
+        question: "Faut-il un site même si l'on a déjà des réseaux sociaux ?",
         answer:
-          "Oui. Le site reste la base de la credibilite, de l'indexation Google et de la conversion."
+          "Oui. Le site reste la base de la crédibilité, de l'indexation Google et de la conversion."
       }
     ]
   },
@@ -211,40 +211,40 @@ export const blogPosts = [
     slug: "pourquoi-un-artisan-a-besoin-d-un-site-internet",
     title: "Pourquoi un artisan a besoin d'un site internet professionnel",
     description:
-      "Un site internet professionnel permet a un artisan d'etre visible, credible et joignable a tout moment sur Google.",
+      "Un site internet professionnel permet à un artisan d'être visible, crédible et joignable à tout moment sur Google.",
     category: "Site internet",
     excerpt:
       "Le site internet n'est pas une carte de visite. C'est un commercial disponible 24h/24 pour vos demandes de devis.",
     heroTitle: "Pourquoi un artisan a besoin d'un site internet qui travaille vraiment",
     intro:
-      "Beaucoup d'artisans vivent encore avec une presence digitale fragmentee. Or un site bien pense permet de structurer l'offre, rassurer et transformer la demande locale.",
+      "Beaucoup d'artisans vivent encore avec une présence digitale fragmentée. Or un site bien pensé permet de structurer l'offre, rassurer et transformer la demande locale.",
     sections: [
       {
-        heading: "Etre trouve au bon moment",
+        heading: "Être trouvé au bon moment",
         content:
-          "Quand un prospect cherche un electricien, un plombier ou un couvreur, il va sur Google. Sans site optimise, vous laissez cette intention a vos concurrents."
+          "Quand un prospect cherche un électricien, un plombier ou un couvreur, il va sur Google. Sans site optimisé, vous laissez cette intention à vos concurrents."
       },
       {
-        heading: "Maitriser votre image",
+        heading: "Maîtriser votre image",
         content:
-          "Le site permet de mettre en avant vos chantiers, vos garanties, vos certifications, vos zones d'intervention et vos specialites."
+          "Le site permet de mettre en avant vos chantiers, vos garanties, vos certifications, vos zones d'intervention et vos spécialités."
       },
       {
-        heading: "Generer des demandes qualifiees",
+        heading: "Générer des demandes qualifiées",
         content:
-          "Avec des pages dediees par prestation et un bon copywriting, vous captez des prospects plus proches de la prise de contact."
+          "Avec des pages dédiées par prestation et un bon copywriting, vous captez des prospects plus proches de la prise de contact."
       }
     ],
     faq: [
       {
         question: "Un simple site one-page est-il suffisant ?",
         answer:
-          "Pas pour dominer le referencement sur plusieurs prestations et zones. Une structure multi-pages est plus performante."
+          "Pas pour dominer le référencement sur plusieurs prestations et zones. Une structure multi-pages est plus performante."
       },
       {
         question: "Le site peut-il fonctionner sans SEO ?",
         answer:
-          "Il peut exister sans SEO, mais il aura beaucoup plus de mal a attirer des prospects depuis Google."
+          "Il peut exister sans SEO, mais il aura beaucoup plus de mal à attirer des prospects depuis Google."
       }
     ]
   },
@@ -252,23 +252,23 @@ export const blogPosts = [
     slug: "seo-local-pour-artisan",
     title: "SEO local pour artisan : les fondamentaux pour remonter sur Google",
     description:
-      "Les bases du referencement local pour artisan afin d'etre visible sur Google Maps et sur les requetes metier geolocalisees.",
+      "Les bases du référencement local pour artisan afin d'être visible sur Google Maps et sur les requêtes métier géolocalisées.",
     category: "SEO local",
     excerpt:
       "Le SEO local est souvent le levier le plus rentable pour un artisan qui veut capter des demandes dans sa zone d'intervention.",
-    heroTitle: "SEO local pour artisan : les bonnes fondations pour gagner en visibilite",
+    heroTitle: "SEO local pour artisan : les bonnes fondations pour gagner en visibilité",
     intro:
-      "Le referencement local ne repose pas sur un seul levier. Il faut aligner technique, contenu, maillage local et preuve de legitimite.",
+      "Le référencement local ne repose pas sur un seul levier. Il faut aligner technique, contenu, maillage local et preuve de légitimité.",
     sections: [
       {
         heading: "Optimiser les pages prestations et villes",
         content:
-          "Une page metier bien redigee, enrichie par des elements de confiance et reliee a des zones d'intervention pertinentes, aide a gagner en visibilite."
+          "Une page métier bien rédigée, enrichie par des éléments de confiance et reliée à des zones d'intervention pertinentes, aide à gagner en visibilité."
       },
       {
-        heading: "Renforcer l'autorite locale",
+        heading: "Renforcer l'autorité locale",
         content:
-          "Avis clients, citations locales, maillage, contenus utiles et coherence NAP jouent un role important dans le positionnement local."
+          "Avis clients, citations locales, maillage, contenus utiles et cohérence NAP jouent un rôle important dans le positionnement local."
       },
       {
         heading: "Suivre les conversions",
@@ -278,14 +278,14 @@ export const blogPosts = [
     ],
     faq: [
       {
-        question: "Faut-il creer une page par ville ?",
+        question: "Faut-il créer une page par ville ?",
         answer:
-          "Oui si chaque page apporte une vraie valeur, une adaptation locale et une intention distincte. Il faut eviter les duplications artificielles."
+          "Oui si chaque page apporte une vraie valeur, une adaptation locale et une intention distincte. Il faut éviter les duplications artificielles."
       },
       {
         question: "Combien d'avis faut-il pour progresser ?",
         answer:
-          "Il n'y a pas de seuil magique, mais un flux regulier d'avis de qualite renforce la confiance et la visibilite."
+          "Il n'y a pas de seuil magique, mais un flux régulier d'avis de qualité renforce la confiance et la visibilité."
       }
     ]
   }
@@ -293,26 +293,26 @@ export const blogPosts = [
 
 export const tradeOptions = [
   { value: "peintre", label: "Peintre" },
-  { value: "electricien", label: "Electricien" },
-  { value: "macon", label: "Macon" },
+  { value: "electricien", label: "Électricien" },
+  { value: "macon", label: "Maçon" },
   { value: "plombier", label: "Plombier" },
   { value: "menuisier", label: "Menuisier" },
-  { value: "autre", label: "Autre metier du batiment" }
+  { value: "autre", label: "Autre métier du bâtiment" }
 ];
 
 export const teamSizes = [
   { value: "solo", label: "Solo" },
-  { value: "2-5", label: "2 a 5 personnes" },
-  { value: "6-20", label: "6 a 20 personnes" },
+  { value: "2-5", label: "2 à 5 personnes" },
+  { value: "6-20", label: "6 à 20 personnes" },
   { value: "20+", label: "Plus de 20 personnes" }
 ];
 
 export const funnelPainPoints = [
   "Pas assez de leads",
-  "Mauvaise visibilite Google",
+  "Mauvaise visibilité Google",
   "Pas de site web performant",
   "Trop de temps perdu en devis",
-  "Mauvaise reputation en ligne"
+  "Mauvaise réputation en ligne"
 ];
 
 export const offerProfiles: Record<
@@ -329,99 +329,99 @@ export const offerProfiles: Record<
   }
 > = {
   peintre: {
-    title: "Une acquisition plus reguliere pour les entreprises de peinture",
+    title: "Une stratégie digitale plus régulière pour les entreprises de peinture",
     subtitle:
-      "Nous vous aidons a remplir le carnet de commandes avec un site clair, des pages locales et une prise de contact simple.",
-    accent: "Bleu chantier et orange signaletique pour une image premium et rassurante.",
+      "Nous vous aidons à remplir le carnet de commandes avec un site clair, des pages locales et une prise de contact simple.",
+    accent: "Un univers visuel propre, rassurant et premium pour valoriser vos chantiers et votre image.",
     benefits: [
-      "+40 % de demandes qualifiees sur les prestations rentables",
-      "Moins de temps perdu a reexpliquer votre offre",
+      "+40 % de demandes qualifiées sur les prestations rentables",
+      "Moins de temps perdu à réexpliquer votre offre",
       "Une image plus haut de gamme sur Google et mobile"
     ],
     proof: "4,8/5 de satisfaction sur des projets de digitalisation terrain.",
     testimonial:
-      "En 3 mois, nous avons recommence a recevoir des demandes serieuses sur la renovation interieure.",
-    testimonialMeta: "Marc, entreprise de peinture a Lyon",
+      "En 3 mois, nous avons recommencé à recevoir des demandes sérieuses sur la rénovation intérieure.",
+    testimonialMeta: "Marc, entreprise de peinture à Lyon",
     launchNote: "Mise en ligne rapide avec accompagnement sur les contenus et les preuves de confiance."
   },
   electricien: {
-    title: "Une offre digitale taillée pour les electriciens qui veulent plus de demandes utiles",
+    title: "Une présence digitale claire pour les électriciens qui veulent plus de demandes utiles",
     subtitle:
       "Nous structurons votre acquisition autour des prestations les plus rentables, de votre zone et de vos urgences.",
-    accent: "Univers visuel inspire des codes conformite, reseau, rapidite d'intervention.",
+    accent: "Un positionnement lisible, réactif et crédible pour les prestations de service et les chantiers.",
     benefits: [
-      "Plus de visibilite locale sur Google",
-      "Des demandes mieux filtrees entre depannage et chantier",
+      "Plus de visibilité locale sur Google",
+      "Des demandes mieux filtrées entre dépannage et chantier",
       "Un parcours plus fluide entre clic, appel et devis"
     ],
-    proof: "Des campagnes et des pages metier construites pour l'intention locale.",
+    proof: "Des campagnes et des pages métier construites pour l'intention locale.",
     testimonial:
-      "Nous avons gagne 18 nouveaux clients en 2 mois grace a un tunnel beaucoup plus lisible.",
-    testimonialMeta: "Nicolas, electricien a Lyon",
-    launchNote: "Operationnel en 48h pour la base du tunnel, puis optimisation continue."
+      "Nous avons gagné 18 nouveaux clients en 2 mois grâce à un site beaucoup plus lisible.",
+    testimonialMeta: "Nicolas, électricien à Lyon",
+    launchNote: "Une base solide peut être déployée vite, puis optimisée mois après mois."
   },
   macon: {
-    title: "Une presence digitale solide pour les macons et entreprises gros oeuvre",
+    title: "Une image digitale solide pour les maçons et entreprises gros oeuvre",
     subtitle:
-      "Nous valorisons vos references, vos zones d'intervention et votre savoir-faire pour rassurer des prospects exigeants.",
-    accent: "Positionnement serieux, robuste et credibilisant pour les entreprises de terrain.",
+      "Nous valorisons vos références, vos zones d'intervention et votre savoir-faire pour rassurer des prospects exigeants.",
+    accent: "Un design robuste et crédible pour les entreprises qui veulent inspirer confiance dès la première visite.",
     benefits: [
-      "Mieux valoriser les chantiers realises",
-      "Accroitre la visibilite sur les recherches renovation et extension",
+      "Mieux valoriser les chantiers réalisés",
+      "Accroître la visibilité sur les recherches rénovation et extension",
       "Fluidifier le traitement des demandes entrantes"
     ],
-    proof: "Tunnel concu pour inspirer confiance rapidement sur mobile et desktop.",
+    proof: "Un site pensé pour inspirer confiance rapidement sur mobile et desktop.",
     testimonial:
-      "Le nouveau parcours nous apporte des prises de contact plus claires et plus serieuses.",
-    testimonialMeta: "Sofiane, entreprise de maconnerie a Bordeaux",
-    launchNote: "Creation du site et des pages d'offre avec cadrage de vos prestations phares."
+      "Le nouveau parcours nous apporte des prises de contact plus claires et plus sérieuses.",
+    testimonialMeta: "Sofiane, entreprise de maçonnerie à Bordeaux",
+    launchNote: "Création du site et des pages d'offre avec cadrage de vos prestations phares."
   },
   plombier: {
-    title: "Une machine d'acquisition plus performante pour les plombiers",
+    title: "Une acquisition plus performante pour les plombiers",
     subtitle:
-      "Nous combinons site, SEO local et conversion pour capter les recherches a forte intention dans votre zone.",
-    accent: "Codes visuels propres, reactifs et rassurants pour le depannage et la renovation.",
+      "Nous combinons site, SEO local et conversion pour capter les recherches à forte intention dans votre zone.",
+    accent: "Des codes visuels propres, réactifs et rassurants pour le dépannage comme pour la rénovation.",
     benefits: [
-      "Plus d'appels qualifies depuis Google",
-      "Moins de deperdition entre visite et demande de devis",
-      "Une meilleure distinction entre urgence, entretien et renovation"
+      "Plus d'appels qualifiés depuis Google",
+      "Moins de déperdition entre visite et demande de devis",
+      "Une meilleure distinction entre urgence, entretien et rénovation"
     ],
-    proof: "Methodologie specialisee pour les metiers de service locaux.",
+    proof: "Méthodologie spécialisée pour les métiers de service locaux.",
     testimonial:
-      "Le tunnel nous a permis de transformer davantage de visites en appels utiles.",
-    testimonialMeta: "Sarah, plomberie-chauffage a Lille",
-    launchNote: "Parametrage simple, sans jargon et avec un suivi clair des conversions."
+      "Le nouveau site nous a permis de transformer davantage de visites en appels utiles.",
+    testimonialMeta: "Sarah, plomberie-chauffage à Lille",
+    launchNote: "Paramétrage simple, sans jargon, avec un suivi clair des conversions."
   },
   menuisier: {
-    title: "Un tunnel de conversion premium pour les menuisiers et agenceurs",
+    title: "Une présence premium pour les menuisiers et agenceurs",
     subtitle:
-      "Nous mettons en avant vos realisations, la qualite percue et les demandes a forte valeur.",
-    accent: "Direction artistique plus haut de gamme pour les prestations sur mesure.",
+      "Nous mettons en avant vos réalisations, la qualité perçue et les demandes à forte valeur.",
+    accent: "Une direction artistique plus haut de gamme pour les prestations sur mesure et les projets premium.",
     benefits: [
-      "Mieux vendre vos chantiers a forte marge",
+      "Mieux vendre vos chantiers à forte marge",
       "Rassurer avant le premier rendez-vous",
       "Structurer la prise de contact autour des bons projets"
     ],
-    proof: "Des preuves de confiance, cas clients et CTA visibles a chaque etape.",
+    proof: "Des preuves de confiance, des cas clients et des CTA visibles à chaque étape.",
     testimonial:
-      "Nous recevons moins de demandes floues et plus de projets alignes avec notre positionnement.",
-    testimonialMeta: "Claire, menuiserie sur mesure a Nantes",
-    launchNote: "Parcours de vente pense pour la renovation premium et les demandes sur mesure."
+      "Nous recevons moins de demandes floues et plus de projets alignés avec notre positionnement.",
+    testimonialMeta: "Claire, menuiserie sur mesure à Nantes",
+    launchNote: "Parcours de vente pensé pour la rénovation premium et les demandes sur mesure."
   },
   autre: {
-    title: "Un tunnel digital adapte a votre metier du batiment",
+    title: "Une stratégie digitale adaptée à votre métier du bâtiment",
     subtitle:
-      "Nous personnalisons la promesse, les preuves et les appels a l'action selon votre activite et vos objectifs.",
-    accent: "Structure flexible pour tous les metiers du BTP et de la renovation.",
+      "Nous personnalisons la promesse, les preuves et les appels à l'action selon votre activité et vos objectifs.",
+    accent: "Une structure flexible pour tous les métiers du BTP et de la rénovation.",
     benefits: [
       "Une offre plus claire pour vos prospects",
       "Davantage de prises de contact utiles",
       "Des outils plus simples pour mieux convertir"
     ],
-    proof: "Approche sur mesure selon votre metier, votre zone et votre maturite digitale.",
+    proof: "Approche sur mesure selon votre métier, votre zone et votre maturité digitale.",
     testimonial:
       "Nous avons enfin un parcours commercial qui explique clairement notre valeur.",
-    testimonialMeta: "Dirigeant BTP accompagne par l'agence",
-    launchNote: "On part de vos priorites terrain pour construire le bon dispositif."
+    testimonialMeta: "Dirigeant BTP accompagné par l'agence",
+    launchNote: "Nous partons de vos priorités terrain pour construire le bon dispositif."
   }
 };
