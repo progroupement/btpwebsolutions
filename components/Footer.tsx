@@ -6,11 +6,11 @@ export function Footer() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div>
-          <p className="eyebrow">Agence web specialisee BTP</p>
+          <p className="eyebrow">Agence web spécialisée BTP</p>
           <h2>BTP Web Solutions</h2>
           <p>
-            Nous aidons les artisans et les entreprises du batiment a gagner en visibilite,
-            en demandes de devis et en efficacite interne grace au digital.
+            Nous aidons les artisans et les entreprises du bâtiment à gagner en visibilité, en
+            demandes de devis et en efficacité interne grâce au digital.
           </p>
         </div>
 
@@ -39,7 +39,7 @@ export function Footer() {
         </div>
       </div>
       <div className="container footer-bottom">
-        <p>© 2026 BTP Web Solutions. Site concu pour performer en SEO et en conversion.</p>
+        <p>© 2026 BTP Web Solutions. Site conçu pour performer en SEO et en conversion.</p>
       </div>
     </footer>
   );

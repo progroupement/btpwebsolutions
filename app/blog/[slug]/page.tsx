@@ -43,28 +43,49 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <StructuredData data={getFaqSchema(article.faq)} />
 
       <article>
-        <section className="page-hero">
-          <div className="container narrow">
-            <p className="eyebrow">{article.category}</p>
-            <h1>{article.heroTitle}</h1>
-            <p className="lead">{article.intro}</p>
+        <section className="page-hero page-hero-editorial">
+          <div className="container editorial-hero single-article-hero">
+            <div className="editorial-copy">
+              <p className="eyebrow">{article.category}</p>
+              <h1>{article.heroTitle}</h1>
+              <p className="lead">{article.intro}</p>
+            </div>
+            <div className="editorial-panel article-side-panel">
+              <p className="eyebrow small">Pourquoi ce sujet compte</p>
+              <h2>{article.title}</h2>
+              <p>
+                Ce contenu est pensé pour capter une intention SEO concrète puis orienter vers une
+                prise de contact utile, pas vers un simple trafic décoratif.
+              </p>
+            </div>
           </div>
         </section>
 
         <section className="section">
-          <div className="container article-layout">
-            {article.sections.map((section) => (
-              <section key={section.heading} className="article-section">
-                <h2>{section.heading}</h2>
-                <p>{section.content}</p>
-              </section>
-            ))}
+          <div className="container article-shell">
+            <div className="article-intro-card">
+              <p className="eyebrow small">Plan éditorial</p>
+              <h2>Les points traités dans l&apos;article</h2>
+              <ul className="check-list">
+                {article.sections.map((section) => (
+                  <li key={section.heading}>{section.heading}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="article-layout">
+              {article.sections.map((section) => (
+                <section key={section.heading} className="article-section">
+                  <h2>{section.heading}</h2>
+                  <p>{section.content}</p>
+                </section>
+              ))}
+            </div>
           </div>
         </section>
 
         <section className="section section-muted">
           <div className="container narrow">
-            <h2>Questions frequentes</h2>
+            <h2>Questions fréquentes</h2>
             <FAQList entries={article.faq} />
           </div>
         </section>
@@ -72,11 +93,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <section className="section final-cta">
           <div className="container cta-panel">
             <div>
-              <p className="eyebrow">Besoin d'un accompagnement sur mesure ?</p>
-              <h2>Transformons ces bonnes pratiques en plan d'action pour votre entreprise</h2>
+              <p className="eyebrow">Besoin d&apos;un accompagnement sur mesure ?</p>
+              <h2>Transformons ces bonnes pratiques en plan d&apos;action pour votre entreprise</h2>
               <p>
-                Nous aidons les artisans et entreprises du batiment a deployer une strategie
-                digitale performante, concrète et orientee resultats.
+                Nous aidons les artisans et entreprises du bâtiment à déployer une stratégie
+                digitale performante, concrète et orientée résultats.
               </p>
             </div>
             <CTAButtons />

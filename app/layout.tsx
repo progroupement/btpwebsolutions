@@ -1,9 +1,20 @@
 import type { Metadata } from "next";
+import { Manrope, Sora } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { StructuredData } from "@/components/StructuredData";
 import { buildMetadata, getLocalBusinessSchema } from "@/lib/seo";
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-body"
+});
+
+const sora = Sora({
+  subsets: ["latin"],
+  variable: "--font-heading"
+});
 
 export const metadata: Metadata = buildMetadata({
   title: "Agence marketing digital batiment, creation site artisan et application BTP",
@@ -19,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body>
+      <body className={`${manrope.variable} ${sora.variable}`}>
         <StructuredData data={getLocalBusinessSchema()} />
         <Header />
         {children}

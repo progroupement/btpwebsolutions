@@ -23,7 +23,7 @@ export function Header() {
           </span>
           <span>
             <strong>BTP Web Solutions</strong>
-            <small>Marketing et applications pour le BTP</small>
+            <small>Marketing digital et applications pour le BTP</small>
           </span>
         </Link>
 

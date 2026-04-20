@@ -3,9 +3,9 @@ import { CTAButtons } from "@/components/CTAButtons";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "A propos | Agence digitale specialisee pour les entreprises du batiment",
+  title: "À propos | Agence digitale spécialisée pour les entreprises du bâtiment",
   description:
-    "Decouvrez l'histoire, la mission et l'approche terrain de notre agence specialisee en marketing digital, sites internet et applications metier pour le BTP.",
+    "Découvrez l'histoire, la mission et l'approche terrain de notre agence spécialisée en marketing digital, sites internet et applications métier pour le BTP.",
   path: "/a-propos"
 });
 
@@ -14,11 +14,11 @@ export default function AboutPage() {
     <main>
       <section className="page-hero">
         <div className="container narrow">
-          <p className="eyebrow">A propos</p>
-          <h1>Une agence digitale qui parle le langage du terrain, du chantier et du resultat</h1>
+          <p className="eyebrow">À propos</p>
+          <h1>Une agence digitale qui parle le langage du terrain, du chantier et du résultat</h1>
           <p className="lead">
-            Notre conviction est simple : les professionnels du batiment meritent des outils
-            digitaux vraiment adaptes a leurs enjeux commerciaux et operationnels.
+            Notre conviction est simple : les professionnels du bâtiment méritent des outils
+            digitaux vraiment adaptés à leurs enjeux commerciaux et opérationnels.
           </p>
         </div>
       </section>
@@ -28,18 +28,18 @@ export default function AboutPage() {
           <article className="content-card">
             <h2>Notre histoire</h2>
             <p>
-              BatiDigital Performance est nee du constat que beaucoup d'artisans et d'entreprises
-              du BTP investissent dans le digital sans obtenir de resultats mesurables. Nous avons
-              donc construit une offre specialisee, alignee sur les cycles de vente, les contraintes
+              BTP Web Solutions est née du constat que beaucoup d&apos;artisans et d&apos;entreprises du
+              BTP investissent dans le digital sans obtenir de résultats mesurables. Nous avons
+              donc construit une offre spécialisée, alignée sur les cycles de vente, les contraintes
               de terrain et les enjeux de marge du secteur.
             </p>
           </article>
           <article className="content-card">
             <h2>Notre mission</h2>
             <p>
-              Aider les entreprises du batiment a gagner en visibilite, en demandes qualifiees et
-              en efficacite interne grace a une strategie digitale sur mesure, pragmatique et
-              orientee ROI.
+              Aider les entreprises du bâtiment à gagner en visibilité, en demandes qualifiées et
+              en efficacité interne grâce à une stratégie digitale sur mesure, pragmatique et
+              orientée ROI.
             </p>
           </article>
         </div>
@@ -47,25 +47,25 @@ export default function AboutPage() {
 
       <section className="section section-muted">
         <div className="container card-grid">
-          <article className="card">
-            <h2>Une expertise vraiment specialisee batiment</h2>
+          <article className="card premium-card">
+            <h2>Une expertise vraiment spécialisée bâtiment</h2>
             <p>
-              Nous connaissons les problematiques de devis, de saisonnalite, de zones
-              d'intervention, de prestations prioritaires, de relation syndic et de coordination
+              Nous connaissons les problématiques de devis, de saisonnalité, de zones
+              d&apos;intervention, de prestations prioritaires, de relation syndic et de coordination
               chantier.
             </p>
           </article>
-          <article className="card">
+          <article className="card premium-card">
             <h2>Une approche terrain</h2>
             <p>
-              Nous simplifions le digital pour qu'il soutienne l'activite, sans alourdir vos
-              equipes. Chaque recommandation doit pouvoir s'appliquer dans la vraie vie.
+              Nous simplifions le digital pour qu&apos;il soutienne l&apos;activité, sans alourdir vos
+              équipes. Chaque recommandation doit pouvoir s&apos;appliquer dans la vraie vie.
             </p>
           </article>
-          <article className="card">
-            <h2>Des valeurs de clarte et d'accompagnement</h2>
+          <article className="card premium-card">
+            <h2>Des valeurs de clarté et d&apos;accompagnement</h2>
             <p>
-              Transparence, exigence, pedagogie et sens du resultat. Nous privilegions les actions
+              Transparence, exigence, pédagogie et sens du résultat. Nous privilégions les actions
               utiles, mesurables et durables.
             </p>
           </article>
@@ -76,10 +76,10 @@ export default function AboutPage() {
         <div className="container narrow">
           <h2>Ce que nous comprenons des entreprises du BTP</h2>
           <p>
-            Les dirigeants du batiment ont besoin de generer des chantiers rentables, de filtrer
+            Les dirigeants du bâtiment ont besoin de générer des chantiers rentables, de filtrer
             les demandes peu pertinentes, de rassurer rapidement les prospects et de gagner du temps
-            dans le suivi. C'est pour cela que nous combinons marketing, UX, SEO technique et
-            developpement applicatif.
+            dans le suivi. C&apos;est pour cela que nous combinons marketing, UX, SEO technique et
+            développement applicatif.
           </p>
           <CTAButtons />
         </div>
