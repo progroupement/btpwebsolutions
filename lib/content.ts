@@ -168,30 +168,30 @@ export const faqs = [
 export const blogPosts = [
   {
     slug: "comment-trouver-des-clients-dans-le-batiment",
-    title: "Comment trouver des clients dans le bâtiment en 2026",
+    title: "Comment trouver des clients dans le bâtiment sans dépendre uniquement du bouche-à-oreille",
     description:
-      "Méthodes concrètes pour générer des demandes de devis dans le bâtiment grâce au SEO local, au site internet et à la publicité digitale.",
+      "Méthodes concrètes pour générer plus de demandes de devis dans le bâtiment grâce au SEO local, au site internet et à une stratégie d'acquisition mieux structurée.",
     category: "Acquisition",
     excerpt:
-      "Un plan d'action clair pour augmenter les demandes entrantes et stabiliser votre prospection sans dépendre uniquement du bouche-à-oreille.",
-    heroTitle: "Comment trouver des clients dans le bâtiment sans dépendre uniquement du bouche-à-oreille",
+      "Un plan d'action concret pour générer des demandes régulières, mieux filtrer les prospects et réduire la dépendance à la recommandation.",
+    heroTitle: "Comment générer plus de clients dans le bâtiment avec un système d'acquisition plus solide",
     intro:
-      "Pour une entreprise du bâtiment, trouver de nouveaux clients de façon régulière demande un système. Entre la concurrence locale, les comparateurs et la volatilité des plateformes, il devient indispensable de construire sa propre machine d'acquisition.",
+      "Pour une entreprise du bâtiment, la recommandation seule ne suffit plus à sécuriser un développement régulier. Il faut mettre en place un système capable d'attirer, de rassurer et de convertir les bons prospects au bon moment.",
     sections: [
       {
-        heading: "Construire une présence locale visible sur Google",
+        heading: "Être visible au bon moment sur Google",
         content:
-          "Votre fiche Google, vos pages services et vos zones d'intervention doivent travailler ensemble. Un artisan visible sur les bonnes requêtes gagne en appels entrants sans surcoût média."
+          "Quand un prospect cherche un artisan, il compare souvent plusieurs entreprises en quelques minutes. Votre fiche Google, vos pages services et vos zones d'intervention doivent donc travailler ensemble pour capter cette demande locale."
       },
       {
-        heading: "Transformer le site en outil commercial",
+        heading: "Transformer le site internet en vrai outil commercial",
         content:
-          "Un site internet artisan doit rassurer, prouver le savoir-faire et orienter vers l'action. Sans CTA visibles, sans avis, sans réalisations et sans structure claire, le trafic se perd."
+          "Un bon site ne se contente pas d'exister. Il doit présenter clairement vos prestations, rassurer avec des réalisations et des preuves de confiance, puis orienter vers une prise de contact simple."
       },
       {
-        heading: "Combiner SEO et campagnes payantes",
+        heading: "Combiner SEO local, publicité et suivi commercial",
         content:
-          "Le SEO construit l'actif long terme. Google Ads permet de capter rapidement la demande sur les prestations prioritaires. Les deux leviers sont complémentaires."
+          "Le SEO construit un actif durable. Les campagnes payantes permettent d'accélérer sur certaines prestations ou zones. Et sans suivi derrière, même de bons leads peuvent se perdre."
       }
     ],
     faq: [
@@ -209,30 +209,30 @@ export const blogPosts = [
   },
   {
     slug: "pourquoi-un-artisan-a-besoin-d-un-site-internet",
-    title: "Pourquoi un artisan a besoin d'un site internet professionnel",
+    title: "Pourquoi un artisan a besoin d'un vrai site internet professionnel",
     description:
-      "Un site internet professionnel permet à un artisan d'être visible, crédible et joignable à tout moment sur Google.",
+      "Un site internet professionnel permet à un artisan d'être visible, crédible, joignable et mieux positionné sur Google face à la concurrence locale.",
     category: "Site internet",
     excerpt:
-      "Le site internet n'est pas une carte de visite. C'est un commercial disponible 24h/24 pour vos demandes de devis.",
-    heroTitle: "Pourquoi un artisan a besoin d'un site internet qui travaille vraiment",
+      "Le site internet n'est pas une simple carte de visite. C'est un support commercial qui doit inspirer confiance et générer des demandes qualifiées.",
+    heroTitle: "Pourquoi un artisan a besoin d'un site internet qui inspire confiance et convertit",
     intro:
-      "Beaucoup d'artisans vivent encore avec une présence digitale fragmentée. Or un site bien pensé permet de structurer l'offre, rassurer et transformer la demande locale.",
+      "Beaucoup d'artisans fonctionnent encore avec une présence digitale incomplète, parfois limitée à Google Business Profile ou aux réseaux sociaux. Pourtant, un vrai site reste le socle de la crédibilité et du référencement local.",
     sections: [
       {
-        heading: "Être trouvé au bon moment",
+        heading: "Être trouvé sur les recherches locales importantes",
         content:
-          "Quand un prospect cherche un électricien, un plombier ou un couvreur, il va sur Google. Sans site optimisé, vous laissez cette intention à vos concurrents."
+          "Quand un prospect cherche un électricien, un plombier ou un couvreur, il tape d'abord sa recherche sur Google. Sans site optimisé, vous laissez cette intention aux concurrents mieux structurés."
       },
       {
-        heading: "Maîtriser votre image",
+        heading: "Maîtriser votre image et votre positionnement",
         content:
-          "Le site permet de mettre en avant vos chantiers, vos garanties, vos certifications, vos zones d'intervention et vos spécialités."
+          "Le site permet de montrer votre niveau de gamme, vos spécialités, vos zones d'intervention, vos réalisations et vos garanties. C'est lui qui construit la première impression."
       },
       {
-        heading: "Générer des demandes qualifiées",
+        heading: "Mieux filtrer et qualifier les demandes de devis",
         content:
-          "Avec des pages dédiées par prestation et un bon copywriting, vous captez des prospects plus proches de la prise de contact."
+          "Avec des pages dédiées par prestation, un bon copywriting et des appels à l'action visibles, vous obtenez des demandes plus claires et souvent mieux alignées avec vos services rentables."
       }
     ],
     faq: [
@@ -250,30 +250,30 @@ export const blogPosts = [
   },
   {
     slug: "seo-local-pour-artisan",
-    title: "SEO local pour artisan : les fondamentaux pour remonter sur Google",
+    title: "SEO local pour artisan : comment remonter sur Google dans votre zone",
     description:
-      "Les bases du référencement local pour artisan afin d'être visible sur Google Maps et sur les requêtes métier géolocalisées.",
+      "Les bases du référencement local pour artisan afin d'améliorer la visibilité sur Google Maps et les recherches métier géolocalisées.",
     category: "SEO local",
     excerpt:
-      "Le SEO local est souvent le levier le plus rentable pour un artisan qui veut capter des demandes dans sa zone d'intervention.",
-    heroTitle: "SEO local pour artisan : les bonnes fondations pour gagner en visibilité",
+      "Le SEO local est souvent le levier le plus rentable pour un artisan qui veut capter des demandes dans sa zone d'intervention sans dépendre d'une plateforme tierce.",
+    heroTitle: "SEO local pour artisan : les bonnes actions pour gagner en visibilité sur Google",
     intro:
-      "Le référencement local ne repose pas sur un seul levier. Il faut aligner technique, contenu, maillage local et preuve de légitimité.",
+      "Le référencement local ne repose pas sur une astuce isolée. Il faut aligner la structure du site, la fiche Google, les pages métiers, les zones d'intervention et les signaux de confiance.",
     sections: [
       {
-        heading: "Optimiser les pages prestations et villes",
+        heading: "Construire des pages prestation et zone utiles",
         content:
-          "Une page métier bien rédigée, enrichie par des éléments de confiance et reliée à des zones d'intervention pertinentes, aide à gagner en visibilité."
+          "Une page métier bien rédigée, enrichie par des preuves de confiance et reliée à des zones d'intervention cohérentes, augmente vos chances de ressortir sur des recherches locales ciblées."
       },
       {
-        heading: "Renforcer l'autorité locale",
+        heading: "Renforcer la confiance locale autour de votre entreprise",
         content:
-          "Avis clients, citations locales, maillage, contenus utiles et cohérence NAP jouent un rôle important dans le positionnement local."
+          "Les avis clients, la cohérence des coordonnées, les citations locales et des contenus utiles autour de votre métier renforcent votre légitimité aux yeux de Google comme aux yeux du prospect."
       },
       {
-        heading: "Suivre les conversions",
+        heading: "Mesurer ce que le SEO apporte vraiment",
         content:
-          "Le trafic seul ne suffit pas. Il faut mesurer les appels, les formulaires et les prises de rendez-vous pour piloter le ROI."
+          "Le volume de visites ne suffit pas. Il faut suivre les appels, les formulaires et les prises de rendez-vous pour savoir si votre visibilité se transforme vraiment en business."
       }
     ],
     faq: [
@@ -286,6 +286,47 @@ export const blogPosts = [
         question: "Combien d'avis faut-il pour progresser ?",
         answer:
           "Il n'y a pas de seuil magique, mais un flux régulier d'avis de qualité renforce la confiance et la visibilité."
+      }
+    ]
+  },
+  {
+    slug: "application-suivi-chantier-pourquoi-passer-a-un-outil-metier",
+    title: "Pourquoi une entreprise du bâtiment finit par avoir besoin d'un outil de suivi chantier",
+    description:
+      "Quand faut-il passer d'un fonctionnement Excel, WhatsApp et appels à un vrai outil métier pour le suivi de chantier ?",
+    category: "Digitalisation",
+    excerpt:
+      "Quand les informations se dispersent, les retards et les oublis coûtent vite plus cher qu'un bon outil métier.",
+    heroTitle: "Suivi chantier : quand faut-il passer d'Excel à un vrai outil métier ?",
+    intro:
+      "Dans beaucoup d'entreprises du bâtiment, les informations circulent encore entre appels, messages, tableurs et photos éparpillées. Tant que l'activité reste limitée, cela peut tenir. Mais dès que la charge augmente, les pertes de temps et les erreurs deviennent un vrai sujet de rentabilité.",
+    sections: [
+      {
+        heading: "Identifier les signes que l'organisation atteint ses limites",
+        content:
+          "Retards de validation, documents introuvables, relances oubliées, manque de visibilité pour le bureau ou le conducteur de travaux : ce sont souvent les premiers signaux d'un système trop fragmenté."
+      },
+      {
+        heading: "Clarifier ce qu'un outil métier doit réellement apporter",
+        content:
+          "Un bon outil ne doit pas complexifier le quotidien. Il doit centraliser l'information utile, simplifier le suivi de chantier, fluidifier les échanges et réduire les doubles saisies."
+      },
+      {
+        heading: "Faire le lien entre image digitale et organisation interne",
+        content:
+          "Une entreprise mieux organisée répond plus vite, relance mieux, suit mieux ses devis et donne une impression plus sérieuse. La digitalisation interne a donc aussi un impact commercial."
+      }
+    ],
+    faq: [
+      {
+        question: "Un outil métier est-il utile pour une petite structure ?",
+        answer:
+          "Oui, dès lors que plusieurs dossiers avancent en parallèle ou que les informations commencent à se disperser. L'enjeu n'est pas la taille seule, mais le niveau de friction au quotidien."
+      },
+      {
+        question: "Faut-il forcément une application complexe ?",
+        answer:
+          "Non. Le meilleur outil est souvent celui qui reste simple, ciblé et adapté aux habitudes de vos équipes."
       }
     ]
   }

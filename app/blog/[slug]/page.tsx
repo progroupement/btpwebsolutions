@@ -51,11 +51,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <p className="lead">{article.intro}</p>
             </div>
             <div className="editorial-panel article-side-panel">
-              <p className="eyebrow small">Pourquoi ce sujet compte</p>
+              <p className="eyebrow small">Pourquoi cet article est utile</p>
               <h2>{article.title}</h2>
               <p>
-                Ce contenu est pensé pour capter une intention SEO concrète puis orienter vers une
-                prise de contact utile, pas vers un simple trafic décoratif.
+                L&apos;objectif est de répondre à une vraie question business d&apos;une entreprise du
+                bâtiment, puis de montrer les actions concrètes à mettre en place pour gagner en
+                visibilité, en crédibilité ou en demandes de devis.
               </p>
             </div>
           </div>
@@ -64,8 +65,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <section className="section">
           <div className="container article-shell">
             <div className="article-intro-card">
-              <p className="eyebrow small">Plan éditorial</p>
-              <h2>Les points traités dans l&apos;article</h2>
+              <p className="eyebrow small">Sommaire</p>
+              <h2>Les points traités dans cet article</h2>
               <ul className="check-list">
                 {article.sections.map((section) => (
                   <li key={section.heading}>{section.heading}</li>
@@ -94,13 +95,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <div className="container cta-panel">
             <div>
               <p className="eyebrow">Besoin d&apos;un accompagnement sur mesure ?</p>
-              <h2>Transformons ces bonnes pratiques en plan d&apos;action pour votre entreprise</h2>
+              <h2>Transformons ce sujet en plan d&apos;action pour votre entreprise</h2>
               <p>
-                Nous aidons les artisans et entreprises du bâtiment à déployer une stratégie
-                digitale performante, concrète et orientée résultats.
+                Nous pouvons structurer votre site, votre SEO local et vos parcours de conversion
+                pour transformer ces bonnes pratiques en résultats concrets.
               </p>
             </div>
-            <CTAButtons />
+            <CTAButtons secondaryLabel="Prendre rendez-vous" />
           </div>
         </section>
       </article>

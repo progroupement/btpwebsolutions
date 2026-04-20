@@ -1,8 +1,8 @@
 :root {
-  --background: #f4f2ee;
+  --background: #ebf2f9;
   --surface: rgba(255, 255, 255, 0.9);
   --surface-strong: #ffffff;
-  --surface-muted: #e8edf3;
+  --surface-muted: #dce8f4;
   --surface-dark: rgba(8, 26, 48, 0.88);
   --text: #152235;
   --text-soft: #566579;
@@ -36,9 +36,9 @@ body {
   font-family: var(--font-body), sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(242, 139, 24, 0.16), transparent 24%),
-    radial-gradient(circle at right top, rgba(10, 39, 72, 0.1), transparent 28%),
-    linear-gradient(180deg, #fcfbf8 0%, var(--background) 100%);
+    radial-gradient(circle at top left, rgba(11, 55, 100, 0.18), transparent 22%),
+    radial-gradient(circle at right top, rgba(242, 139, 24, 0.12), transparent 20%),
+    linear-gradient(180deg, #f7fbff 0%, var(--background) 100%);
   line-height: 1.65;
 }
 
@@ -79,8 +79,8 @@ main {
   top: 0;
   z-index: 100;
   backdrop-filter: blur(22px);
-  background: rgba(252, 251, 248, 0.72);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.56);
+  background: rgba(244, 249, 255, 0.78);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.68);
 }
 
 .navbar {
@@ -135,15 +135,34 @@ main {
 }
 
 .nav-links a {
+  position: relative;
   color: var(--text-soft);
   font-weight: 700;
   font-size: 0.9rem;
   white-space: nowrap;
 }
 
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.35rem;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), rgba(242, 139, 24, 0));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
 .nav-links a:hover,
 .text-link:hover {
   color: var(--primary);
+}
+
+.nav-links a:hover::after,
+.nav-links a:focus-visible::after {
+  transform: scaleX(1);
 }
 
 .menu-toggle {
@@ -187,7 +206,7 @@ main {
 .button-secondary,
 .nav-cta.secondary {
   color: var(--primary);
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.88);
   border: 1px solid var(--border);
   box-shadow: none;
 }
@@ -195,6 +214,52 @@ main {
 .hero-section,
 .page-hero {
   padding: 5.5rem 0 3.5rem;
+}
+
+.page-hero-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.92fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.page-hero-copy {
+  padding-right: 1rem;
+}
+
+.page-hero-aside {
+  display: grid;
+  gap: 1rem;
+  padding: 1.75rem;
+  border-radius: var(--radius-xl);
+  background:
+    radial-gradient(circle at top right, rgba(242, 139, 24, 0.12), transparent 24%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(242, 247, 253, 0.9));
+  border: 1px solid rgba(10, 39, 72, 0.08);
+  box-shadow: var(--shadow);
+}
+
+.page-hero-aside h2 {
+  margin: 0;
+  font-size: 1.45rem;
+}
+
+.page-hero-points {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.page-hero-point {
+  padding: 1rem 1.05rem;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(10, 39, 72, 0.07);
+}
+
+.page-hero-point strong {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 0.95rem;
 }
 
 .hero-premium {
@@ -250,7 +315,7 @@ main {
 .metric-card {
   padding: 1.1rem 1rem;
   border-radius: var(--radius-md);
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.84);
   border: 1px solid rgba(10, 39, 72, 0.09);
   box-shadow: var(--shadow);
 }
@@ -287,7 +352,7 @@ main {
   padding: 0.75rem 1rem;
   border-radius: 999px;
   color: var(--text-inverse);
-  background: rgba(7, 27, 51, 0.88);
+  background: rgba(9, 36, 66, 0.92);
   border: 1px solid var(--border-strong);
   box-shadow: var(--shadow-deep);
   font-size: 0.9rem;
@@ -432,7 +497,7 @@ main {
 .article-intro-card,
 .editorial-card,
 .editorial-panel {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.84));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.97), rgba(245, 249, 255, 0.88));
   border: 1px solid rgba(10, 39, 72, 0.08);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow);
@@ -448,6 +513,33 @@ main {
 .premium-card {
   position: relative;
   overflow: hidden;
+}
+
+.card,
+.content-card,
+.stat-card,
+.premium-card,
+.editorial-card,
+.case-study-card,
+.reassurance-box,
+.page-hero-aside {
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.card:hover,
+.content-card:hover,
+.stat-card:hover,
+.premium-card:hover,
+.editorial-card:hover,
+.case-study-card:hover,
+.reassurance-box:hover,
+.page-hero-aside:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 26px 54px rgba(7, 18, 33, 0.14);
+  border-color: rgba(10, 39, 72, 0.14);
 }
 
 .premium-card::before {
@@ -551,16 +643,25 @@ main {
 }
 
 .detail-row {
-  padding: 1.8rem 0;
-  border-bottom: 1px solid rgba(10, 39, 72, 0.08);
+  padding: 1.8rem;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(243, 248, 255, 0.82));
+  border: 1px solid rgba(10, 39, 72, 0.08);
+  box-shadow: var(--shadow);
 }
 
 .detail-row:last-child {
-  border-bottom: 0;
+  border-bottom: 1px solid rgba(10, 39, 72, 0.08);
 }
 
 .case-study-card {
   padding: 2rem;
+}
+
+.case-study-head {
+  display: grid;
+  gap: 0.3rem;
+  margin-bottom: 1.3rem;
 }
 
 .section-actions,
@@ -730,6 +831,10 @@ main {
   background: linear-gradient(180deg, rgba(232, 237, 243, 0.95), rgba(255, 255, 255, 0.72));
 }
 
+.contact-points li {
+  padding-left: 0;
+}
+
 .page-hero-editorial {
   padding-top: 5.7rem;
 }
@@ -827,6 +932,10 @@ main {
 }
 
 @media (max-width: 1180px) {
+  .page-hero-shell {
+    grid-template-columns: 1fr;
+  }
+
   .navbar {
     gap: 0.8rem;
   }
@@ -908,6 +1017,7 @@ main {
   }
 
   .hero-shell,
+  .page-hero-shell,
   .editorial-hero,
   .split-heading,
   .article-shell,

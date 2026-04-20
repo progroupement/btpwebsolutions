@@ -4,31 +4,35 @@ import { blogPosts } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Blog SEO bâtiment | Conseils pour artisans et entreprises du BTP",
+  title: "Blog SEO bâtiment | Conseils web, visibilité Google et digitalisation BTP",
   description:
-    "Articles SEO et marketing digital pour les artisans et entreprises du bâtiment : acquisition client, site internet, SEO local, digitalisation et applications métier.",
+    "Articles SEO et marketing digital pour les artisans et entreprises du bâtiment : visibilité Google, site internet, acquisition locale et outils métier.",
   path: "/blog"
 });
 
 export default function BlogPage() {
+  const [featuredPost, ...otherPosts] = blogPosts;
+
   return (
     <main>
       <section className="page-hero page-hero-editorial">
         <div className="container editorial-hero">
           <div className="editorial-copy">
-            <p className="eyebrow">Blog SEO</p>
-            <h1>Des contenus pensés pour capter le trafic Google des professionnels du bâtiment</h1>
+            <p className="eyebrow">Blog BTP Web Solutions</p>
+            <h1>Des articles pensés pour attirer les bons prospects du bâtiment sur Google</h1>
             <p className="lead">
-              Cette structure de blog est prête à accueillir vos contenus piliers, vos guides
-              locaux et vos articles de conversion.
+              Ce blog a pour vocation d&apos;aider les artisans et entreprises du BTP à mieux
+              comprendre le SEO local, la création de site internet, la conversion et la
+              digitalisation métier.
             </p>
           </div>
           <div className="editorial-panel">
             <p className="eyebrow small">Ligne éditoriale</p>
-            <h2>Du contenu utile, précis et orienté terrain</h2>
+            <h2>Du contenu concret, utile et orienté résultats</h2>
             <p>
-              Chaque article doit capter une intention claire : visibilité locale, acquisition,
-              digitalisation ou optimisation de la relation client dans le bâtiment.
+              Nous privilégions des sujets proches des vraies questions du terrain : comment être
+              trouvé sur Google, comment mieux présenter son entreprise, comment filtrer les
+              demandes et comment gagner du temps avec de meilleurs outils.
             </p>
           </div>
         </div>
@@ -36,11 +40,25 @@ export default function BlogPage() {
 
       <section className="section">
         <div className="container editorial-grid">
-          {blogPosts.map((post, index) => (
-            <article key={post.slug} className={`editorial-card ${index === 0 ? "featured" : ""}`}>
+          <article className="editorial-card featured">
+            <div className="editorial-card-meta">
+              <p className="eyebrow small">{featuredPost.category}</p>
+              <span className="editorial-chip">Article pilier</span>
+            </div>
+            <h2>{featuredPost.title}</h2>
+            <p>{featuredPost.excerpt}</p>
+            <div className="editorial-card-footer">
+              <Link href={`/blog/${featuredPost.slug}`} className="text-link">
+                Lire l&apos;article complet
+              </Link>
+            </div>
+          </article>
+
+          {otherPosts.map((post) => (
+            <article key={post.slug} className="editorial-card">
               <div className="editorial-card-meta">
                 <p className="eyebrow small">{post.category}</p>
-                <span className="editorial-chip">SEO bâtiment</span>
+                <span className="editorial-chip">Conseil pratique</span>
               </div>
               <h2>{post.title}</h2>
               <p>{post.excerpt}</p>

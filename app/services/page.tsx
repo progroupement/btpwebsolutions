@@ -62,14 +62,30 @@ export default function ServicesPage() {
   return (
     <main>
       <section className="page-hero">
-        <div className="container narrow">
-          <p className="eyebrow">Services</p>
-          <h1>Des prestations digitales pensées pour les entreprises du bâtiment</h1>
-          <p className="lead">
-            Nous intervenons sur la visibilité, la conversion et les outils métier pour aider votre
-            entreprise à développer son chiffre d'affaires sans perdre en lisibilité ni en confort
-            de gestion.
-          </p>
+        <div className="container page-hero-shell">
+          <div className="page-hero-copy">
+            <p className="eyebrow">Services</p>
+            <h1>Des prestations digitales pensées pour les entreprises du bâtiment</h1>
+            <p className="lead">
+              Nous intervenons sur la visibilité, la conversion et les outils métier pour aider
+              votre entreprise à développer son chiffre d&apos;affaires sans perdre en lisibilité ni
+              en confort de gestion.
+            </p>
+          </div>
+          <aside className="page-hero-aside">
+            <p className="eyebrow small">Ce que nous couvrons</p>
+            <h2>Un accompagnement complet</h2>
+            <div className="page-hero-points">
+              <div className="page-hero-point">
+                <strong>Image et crédibilité</strong>
+                <span>Sites internet premium pour artisans, PME et entreprises générales.</span>
+              </div>
+              <div className="page-hero-point">
+                <strong>Visibilité et performance</strong>
+                <span>SEO local, contenus métier, campagnes Google Ads et génération de leads.</span>
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
 

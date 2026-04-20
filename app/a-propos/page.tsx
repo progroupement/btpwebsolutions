@@ -13,13 +13,30 @@ export default function AboutPage() {
   return (
     <main>
       <section className="page-hero">
-        <div className="container narrow">
-          <p className="eyebrow">À propos</p>
-          <h1>Une agence digitale qui parle le langage du terrain, du chantier et du résultat</h1>
-          <p className="lead">
-            Notre conviction est simple : les professionnels du bâtiment méritent des outils
-            digitaux vraiment adaptés à leurs enjeux commerciaux et opérationnels.
-          </p>
+        <div className="container page-hero-shell">
+          <div className="page-hero-copy">
+            <p className="eyebrow">À propos</p>
+            <h1>Une agence digitale qui comprend vraiment les entreprises du bâtiment</h1>
+            <p className="lead">
+              BTP Web Solutions est née d&apos;un constat simple : beaucoup d&apos;artisans et
+              d&apos;entreprises du BTP investissent dans le digital sans obtenir une vraie
+              amélioration de leur visibilité, de leurs leads ou de leur organisation.
+            </p>
+          </div>
+          <aside className="page-hero-aside">
+            <p className="eyebrow small">Notre ligne</p>
+            <h2>Utilité, clarté, résultats</h2>
+            <div className="page-hero-points">
+              <div className="page-hero-point">
+                <strong>Spécialisation BTP</strong>
+                <span>Des messages, des parcours et des outils pensés pour le terrain.</span>
+              </div>
+              <div className="page-hero-point">
+                <strong>Vision globale</strong>
+                <span>Site internet, visibilité Google, conversion et digitalisation métier.</span>
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
 
@@ -28,10 +45,9 @@ export default function AboutPage() {
           <article className="content-card">
             <h2>Notre histoire</h2>
             <p>
-              BTP Web Solutions est née du constat que beaucoup d&apos;artisans et d&apos;entreprises du
-              BTP investissent dans le digital sans obtenir de résultats mesurables. Nous avons
-              donc construit une offre spécialisée, alignée sur les cycles de vente, les contraintes
-              de terrain et les enjeux de marge du secteur.
+              Nous avons construit une offre spécialisée, alignée sur les cycles de vente, les
+              contraintes de chantier et les enjeux de marge du secteur. Notre rôle n&apos;est pas
+              de livrer des éléments décoratifs, mais de bâtir une base digitale cohérente et utile.
             </p>
           </article>
           <article className="content-card">
@@ -74,14 +90,14 @@ export default function AboutPage() {
 
       <section className="section">
         <div className="container narrow">
-          <h2>Ce que nous comprenons des entreprises du BTP</h2>
+          <h2>Ce que nous comprenons du quotidien d&apos;une entreprise du BTP</h2>
           <p>
-            Les dirigeants du bâtiment ont besoin de générer des chantiers rentables, de filtrer
-            les demandes peu pertinentes, de rassurer rapidement les prospects et de gagner du temps
-            dans le suivi. C&apos;est pour cela que nous combinons marketing, UX, SEO technique et
+            Les dirigeants ont besoin de générer des chantiers rentables, de filtrer les demandes
+            peu pertinentes, de rassurer rapidement les prospects et de gagner du temps dans le
+            suivi. C&apos;est pour cela que nous combinons marketing, UX, SEO technique et
             développement applicatif.
           </p>
-          <CTAButtons />
+          <CTAButtons secondaryLabel="Prendre rendez-vous" />
         </div>
       </section>
     </main>
