@@ -169,9 +169,15 @@ export function ContactForm({ journey }: ContactFormProps) {
         />
       </label>
 
-      <button type="submit" className="button" disabled={status === "loading"}>
-        {status === "loading" ? "Envoi en cours..." : "Envoyer ma demande"}
-      </button>
+      <div className="qualification-footer">
+        <p className="microcopy">
+          Votre demande est préparée avec les éléments utiles pour vous répondre clairement et
+          rapidement.
+        </p>
+        <button type="submit" className="button" disabled={status === "loading"}>
+          {status === "loading" ? "Envoi en cours..." : "Envoyer ma demande"}
+        </button>
+      </div>
 
       {feedback ? <p className={`form-feedback ${status}`}>{feedback}</p> : null}
     </form>
